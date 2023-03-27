@@ -1,7 +1,7 @@
 # Robot Server API Documentation
 
 ## Introduction
-The Robot Configuration Server provides a basic cloud service to host the configuration settings of a collection of Robot devices. It implements all the API functionality needed to interact with a Robot. The server can run standalone or provide a configuration only service while running a seperate third party transaction server.
+The Robot Configuration Server provides an onsite or basic cloud service to host the configuration settings for a collection of Robot devices. It implements all the API functionality needed to interact with a Robot. The server can run standalone or provide a configuration only service while running a seperate third party transaction server.
 
 ---
 
@@ -52,7 +52,7 @@ Example of a returned JSON object
 ```
 
 ## Container Store API
-The container API provides methods to retrieve relevant data about containers. It also provides a few filtering options to search for relevant data.
+The container API provides methods to retrieve relevant data about containers. A container is anyhing that hold something relevant and can be uniquely identified. Examples are pallets, carton and bins. The API provides a few filtering options to narrow down relevant data.
 
 <details><summary>Retrieve Container Data - Basic</summary>
 To retreive a list of containers or a single container a single API endpint is used with the GET verb.
